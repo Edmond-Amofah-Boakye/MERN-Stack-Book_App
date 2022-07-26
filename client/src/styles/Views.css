@@ -1,0 +1,19 @@
+.views-wrapper{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 2rem;
+    background-color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.views-content{
+   max-width: 50%;
+   margin-left: 1rem;
+}
+.view-image img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}

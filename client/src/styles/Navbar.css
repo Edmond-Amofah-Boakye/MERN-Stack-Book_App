@@ -1,0 +1,51 @@
+.navbar{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.navbar h2{
+    color: rgb(243, 8, 8);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(217, 217, 217, 0.978);
+    height: 80px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+a{
+   color: white;
+  text-decoration: none;
+}
+
+.login{
+    color: rgba(239, 238, 240, 0.905);
+    font-size: 1.3rem;
+}
+
+.account{
+    font-size: 1rem;
+    background-color: rgb(205, 27, 60);
+    padding: 0.8rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

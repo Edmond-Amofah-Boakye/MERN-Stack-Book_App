@@ -1,0 +1,26 @@
+
+.signin-form form{
+    width: 35rem;
+    margin: 7rem auto 1rem auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.signin-form form h1{
+    text-align: center;
+}
+
+.signin-form form button{
+    margin-top: 2rem;
+    border: none;
+    background-color: blue;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}

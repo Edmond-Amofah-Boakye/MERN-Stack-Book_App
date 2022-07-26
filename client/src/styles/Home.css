@@ -1,0 +1,77 @@
+.home-wrapper{
+    margin-top: 80px;
+    background-color: rgb(246, 245, 245);
+}
+
+.content{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-image{
+    /* background-color: rgb(205, 27, 60); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.content img{
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.message > h1{
+    font-size: 3.5rem;
+    margin: 1.3rem 0;
+    color: rgba(11, 11, 11, 0.929);
+}
+.message p{
+    color: rgb(205, 27, 60);;
+    font-size: 1.2rem;
+}
+
+.message > input{
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 0.4px solid black;
+    margin-top: 3rem;
+}
+
+.message > input::placeholder{
+    padding-left: 2rem;
+}
+
+.now{
+    color: red;
+}
+
+.best{
+    color: blue;   
+}
+.latext{
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+}
+
+.latext h1{
+    border-bottom: 1px solid black;
+    max-width: 20%;
+    margin: 1rem auto 1rem auto;
+}
+
+.latext > img{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    padding: 1.5rem;
+}

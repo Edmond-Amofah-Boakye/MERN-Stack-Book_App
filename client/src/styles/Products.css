@@ -1,0 +1,49 @@
+.product-form{
+    margin-top: 120px;
+}
+
+.product-form h1{
+    text-align: center;
+    margin-bottom: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+}
+.product-form form{
+    width: 60rem;
+    margin: 3rem auto 2rem;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.product-form input{
+    margin-bottom: 2rem;
+}
+
+.product-form textarea{
+    resize: vertical;
+    margin-bottom: 2rem;
+}
+
+.product-form textarea::placeholder{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.product-form form button{
+    background-color: blue;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    color: white;
+}

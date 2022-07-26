@@ -1,0 +1,115 @@
+.book-wrapper{
+    margin-top: 6rem;
+}
+
+.search-bar input{
+    width: 50%;
+    margin: 0 auto 1rem auto;
+}
+
+.actions{
+    margin-top: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.actions > button{
+    width: 20%;
+    margin: 1rem 0.5rem 0 0.5rem;
+    border: none;
+    color: white;
+    display: none;
+}
+
+.allBooks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+}
+
+.card{
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 1rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.card img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.backdrop{
+    background-color: rgba(16, 16, 16, 0.967);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.modal-wrapper{
+    width: 50rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: 10050;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.modal-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modal-cardimg img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+
+.download, .close-btn{
+    float: right;
+}
+
+.download{
+    background-color: rgb(7, 7, 246);
+    padding: 0.4rem 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.close-btn button{
+    background-color: red;
+    padding: 0.4rem 1.3rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+}
